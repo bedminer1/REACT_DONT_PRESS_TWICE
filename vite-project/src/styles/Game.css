@@ -1,1 +1,12 @@
-
+#gameWrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .gameContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 1rem;
+  }
